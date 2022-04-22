@@ -161,6 +161,45 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         p.mb-4 Teniendo en cuenta lo anterior, es necesario hacer énfasis en el Convenio Internacional de las Maderas Tropicales que en el título 1, artículo 1, menciona dentro de sus objetivos…
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema4/img17.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 … el fomento, el fortalecimiento del conocimiento, la contribución de los productos no maderables y los servicios ambientales a la ordenación sostenible de los bosques tropicales, con el fin de que los miembros o comunidades refuercen las estrategias para fortalecer la ordenación sostenible de estos territorios, siempre teniendo en cuenta las pautas regulatorias.             
+
+        p.mb-4 Así mismo, se mencionan dos convenios importantes que hacen énfasis en los productos no maderables los cuales se describen a continuación.
+        p.mb-0 Convenio sobre la Diversidad Biológica, este tiene tres objetivos, a saber:
+
+    .row.justify-content-center.mb-4
+      .col-lg-8
+        SlyderF.mb-5(columnas="col-lg-12")
+          .tarjeta.color-principal.p-0        
+            img(src='@/assets/curso/tema4/img18.png')
+            div.slyder1 
+              p.text-center.py-2.mb-0 El uso sostenible de la diversidad biológica.
+          .tarjeta.color-principal.p-0        
+            img(src='@/assets/curso/tema4/img19.png')
+            div.slyder1 
+              p.text-center.py-2.mb-0 El uso sostenible de la diversidad biológica.
+          .tarjeta.color-principal.p-0        
+            img(src='@/assets/curso/tema4/img20.png')
+            div.slyder1 
+              p.text-center.py-2.mb-0 Disfrute equitativo por todos los beneficios derivados.
+
+    p.mb-4 Por otro lado, se calcula que los ecosistemas forestales corresponden al 70% de las especies vegetales y animales del mundo, en este Convenio se resaltan los conocimientos tradicionales sobre los bosques con que cuentan los pueblos indígenas.
+
+    .row.justify-content-center
+      .col-lg-7.p-4.d-flex(style="background-color:#F1F6EA")
+        div.p-0.w-100
+          p.mb-4 Otro convenio importante es el      Acuerdo Mundial del Comercio que tiene en cuenta la producción para el comercio y la protección del medio ambiente; entre sus principales objetivos se destacan aplicaciones a los bosques, como:
+          p.mb-0 <span style="color: #FFC846">●</span> El etiquetado ecológico.
+          p.mb-0 <span style="color: #FFC846">●</span> El mejoramiento del acceso al mercado para productos y servicios forestales no maderables.
+          p.mb-0 <span style="color: #FFC846">●</span> La elaboración y comercialización de los mismos.
+
+      .col-lg-3.p-0
+        img(src='@/assets/curso/tema4/img21.png')
+
 </template>
 
 <script>
@@ -181,6 +220,20 @@ export default {
 </script>
 
 <style lang="sass">
+.fa-chevron-left:before
+  color: #942E19
+
+.fa-chevron-right:before
+  color: #942E19
+
+.slyder1
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #E5EFD4;
+  p
+    font-size: 17
+    font-weight: bold
+
 .lista-ol--separador li, .lista-ul--separador li
   border-bottom: solid 2px #AFAFAF;
   img
