@@ -132,10 +132,35 @@
       p.mb-0 Normatividad régimen de aprovechamiento de recursos naturales. 
     img.mb-5(src="@/assets/curso/tema4/img11.png")
     p.mb-0 Por otro lado, se debe hacer un manejo sostenible de los productos no maderables donde se planifica y ejecuta su manejo, salvaguardando el ecosistema para mejorar la estructura y potencial de sus diferentes usos comerciales y tradicionales.
-    Separador
-    #t_4_4.titulo-segundo.color-acento-contenido
-      h2 4.4  Convenios internacionales de sostenibilidad
+    
+    .fondo6.mb-4 
+      Separador    
+      #t_4_4.titulo-segundo.color-acento-contenido
+        h2 4.4  Convenios internacionales de sostenibilidad
 
+      p.mb-5 A nivel internacional existen diversos convenios de gran importancia donde se enmarcan diferentes actividades que ayudan a la conservación y el sostenimiento de los recursos naturales que, en este caso, serían los bosques, por lo anterior, se invita a revisar el siguiente recurso de aprendizaje para profundizar en el tema.
+
+      .row.justify-content-center
+        .col-lg-8
+          ul.lista-ul--color.lista-ul--separador.position-relative
+            li.d-flex.align-items-center 
+            li.d-flex.align-items-center 
+              img(style="width:60px" src="@/assets/curso/tema4/img13.svg")
+              p.mb-0 Convenios internacionales
+            li.d-flex.align-items-center 
+              img(style="width:60px" src="@/assets/curso/tema4/img14.svg")
+              p.mb-0 Ley 74 de 1979 por medio de la cual se aprueba el Tratado de Cooperación Amazónica, firmado en Brasilia el 3 de julio de 1978 entre otros importantes convenios.
+            li.d-flex.align-items-center  
+              img(style="width:60px" src="@/assets/curso/tema4/img15.svg")
+              p.mb-0 Ley 464 de 1998 por la cual se aprueba el Convenio Internacional de las Maderas Tropicales que habla sobre la conservación, utilización y comercio sostenible de los bosques productores de madera teniendo en cuenta, además, la ordenación respectiva de cada uno para así adaptar las respectivas normativas.
+            li.d-flex.align-items-center  
+              img(style="width:60px" src="@/assets/curso/tema4/img16.svg")
+              p.mb-0 Declaración de Bariloche en el II Congreso Latinoamericano de Parques y otras Áreas Protegidas del año 2007.
+            li.d-flex.align-items-center 
+
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        p.mb-4 Teniendo en cuenta lo anterior, es necesario hacer énfasis en el Convenio Internacional de las Maderas Tropicales que en el título 1, artículo 1, menciona dentro de sus objetivos…
 </template>
 
 <script>
@@ -156,6 +181,35 @@ export default {
 </script>
 
 <style lang="sass">
+.lista-ol--separador li, .lista-ul--separador li
+  border-bottom: solid 2px #AFAFAF;
+  img
+    position: relative
+    left: -30px
+
+.fondo6
+  margin-top: 45px
+
+  .separador-container
+    padding: 0px 0px 45px 0px;
+
+  position: relative
+  padding-bottom: 1rem
+  div, p, img
+    position: relative
+
+  &::before
+    content: ""
+    position: absolute
+    top: 0
+    left: 2.5%
+    width: 108%
+    height: 100%
+    margin: 0 -5rem
+    background-image: url("../assets/curso/tema4/img12.png")
+    // background-size: contain
+    background-repeat: no-repeat
+
 .fondo5
   border-radius: 23px
   background: rgba(229,239,212,1);
