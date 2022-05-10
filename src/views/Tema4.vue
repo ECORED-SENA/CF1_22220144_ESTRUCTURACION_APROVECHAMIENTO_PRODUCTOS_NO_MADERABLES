@@ -8,7 +8,7 @@
       h1 Legislación ambiental para productos no maderables del bosque
 
     .fondo1.p-0.pt-4.m-0.position-relative.mb-4
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="fade-left")
         .col-lg-3.p-0
           img(src="@/assets/curso/tema4/img02.png")
         .col-lg-7.d-flex(style="background-color:#F1F6EA")
@@ -20,12 +20,12 @@
       #t_4_1.titulo-segundo.color-acento-contenido
         h2 4.1  Contextualización: Plan de Ordenamiento Territorial y Planes de Ordenamiento Ambiental
 
-      p.mb-5 Es importante contextualizar las pautas que el Estado colombiano ha venido definiendo, como es el caso del Plan de Ordenamiento Territorial vigente en Colombia y que va paralelo a los Objetivos de Desarrollo Sostenible que están descrito en la Agenda 2030 de la Unesco, para de esta forma entender a un nivel macro cómo se gestiona y conserva el medio ambiente, las responsabilidades de los diferentes actores, y los factores que intervienen directamente. Por lo anterior, se diseñaron unos lineamientos que se deben tener en cuenta a nivel nacional. 
+      p.mb-5(data-aos="fade-right") Es importante contextualizar las pautas que el Estado colombiano ha venido definiendo, como es el caso del Plan de Ordenamiento Territorial vigente en Colombia y que va paralelo a los Objetivos de Desarrollo Sostenible que están descrito en la Agenda 2030 de la Unesco, para de esta forma entender a un nivel macro cómo se gestiona y conserva el medio ambiente, las responsabilidades de los diferentes actores, y los factores que intervienen directamente. Por lo anterior, se diseñaron unos lineamientos que se deben tener en cuenta a nivel nacional. 
       
-      .cajon.color-acento-contenido.p-4.px-5
+      .cajon.color-acento-contenido.p-4.px-5(data-aos="fade-left")
         p.mb-0 El primer lineamiento que inició este plan fue la Ley 99 de 1993, donde se crea el Ministerio del Medio Ambiente, allí se delega al sector público la gestión y conservación de los recursos naturales renovables, luego está entidad creó tres documentos importantes que definen grosso modo el Plan de Ordenamiento Territorial que se describen en el siguiente recurso de aprendizaje:
     
-    .tarjetas1.mb-4(data-aos="fade-left")
+    .tarjetas1.mb-4(data-aos="fade-right")
       .row.justify-content-center.align-items-center        
             .col-lg-4
               .TFcontainer.mb-3
@@ -46,9 +46,9 @@
                   h4 Función ecológica de la propiedad 
                   p.mb-0 Este documento orienta las Corporaciones Autónomas Regionales y de Desarrollo Sostenible con las comunidades indígenas en Procesos de Ordenamiento Ambiental Territorial.
     
-    p.mb-4 Por otro lado, se debe tener en cuenta el Plan de Ordenamiento Ambiental que es un instrumento muy importante para integrar diferentes variables ambientales en busca del desarrollo sostenible local para mantener el equilibrio entre la demanda y la oferta lo que implica necesariamente un adecuado ordenamiento de ocupación y uso de los territorios. 
+    p.mb-4(data-aos="fade-right") Por otro lado, se debe tener en cuenta el Plan de Ordenamiento Ambiental que es un instrumento muy importante para integrar diferentes variables ambientales en busca del desarrollo sostenible local para mantener el equilibrio entre la demanda y la oferta lo que implica necesariamente un adecuado ordenamiento de ocupación y uso de los territorios. 
     
-    .row.justify-content-center.mb-5 
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-5.p-0
         img(src="@/assets/curso/tema4/img06.png")
       .col-lg-7.d-flex.fondo2
@@ -60,9 +60,9 @@
             p.mb-0 <span style="color: #FFC846">●</span> Los asentamientos humanos. 
             p.mb-0 <span style="color: #FFC846">●</span> La dinámica social. 
     
-    p.mb-5 De esa forma se puede dar un manejo adecuado de las reservas naturales y ofrecer calidad de vida a las comunidades y sus contextos con el propósito de un desarrollo sostenible. A continuación, se muestra un recurso de aprendizaje en el cual se podrá profundizar en el tema, por lo que se invita a revisar los enlaces.
+    p.mb-5(data-aos="fade-right") De esa forma se puede dar un manejo adecuado de las reservas naturales y ofrecer calidad de vida a las comunidades y sus contextos con el propósito de un desarrollo sostenible. A continuación, se muestra un recurso de aprendizaje en el cual se podrá profundizar en el tema, por lo que se invita a revisar los enlaces.
     
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
         .tabla-b.color-acento-contenido
           table        
@@ -100,9 +100,9 @@
     #t_4_2.titulo-segundo.color-acento-contenido
       h2 4.2  Áreas de manejo ambiental especial
 
-    p.mb-4 La legislación de estos productos no maderables sufrió un cambio según el Decreto 690 de 2021 que modifica los lineamientos del sector ambiente y desarrollo sostenible relacionado con el manejo de estos productos.
+    p.mb-4(data-aos="fade-right") La legislación de estos productos no maderables sufrió un cambio según el Decreto 690 de 2021 que modifica los lineamientos del sector ambiente y desarrollo sostenible relacionado con el manejo de estos productos.
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.p-5.py-4.fondo3
         p.mb-3 Dicho artículo en la sección 10 que habla del manejo sostenible de la flora silvestre y de los productos forestales no maderables, en la subsección 2 Artículo 2.2.1.1.10.2.1 habla de cómo adquirir los productos forestales no maderables con el objetivo de contar con elementos técnicos que orienten las actividades y así mismo, facilitar a los entes de control el seguimiento y evaluación de los productos no maderables, en este decreto se tiene en cuenta los aspectos:
         .row.mb-4 
@@ -120,27 +120,27 @@
               h4.text-center.mb-0 Socioculturales
         p.mb-0 Lo anterior permite a la comunidad tener una estabilidad económica y un manejo sostenible de los recursos naturales, por lo que para adquirir los productos no maderables se puede usar las siguientes opciones:
     
-    img.mb-5(src="@/assets/curso/tema4/img10.svg")
-    p.mb-0 Según la ley, por medio de estas opciones se puede solicitar al organismo competente la intervención de zonas con productos no maderables para garantizar el desarrollo sostenible de la región que se utilizará.
+    img.mb-5(src="@/assets/curso/tema4/img10.svg" data-aos="fade-right")
+    p.mb-0(data-aos="fade-left") Según la ley, por medio de estas opciones se puede solicitar al organismo competente la intervención de zonas con productos no maderables para garantizar el desarrollo sostenible de la región que se utilizará.
     Separador
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3  Régimen de aprovechamiento de recursos naturales
 
-    p.mb-4 Los recursos no maderables del bosque deben ser siempre usados de manera sostenible, por lo que es indispensable conocer el régimen que indica estas pautas.
+    p.mb-4(data-aos="fade-right") Los recursos no maderables del bosque deben ser siempre usados de manera sostenible, por lo que es indispensable conocer el régimen que indica estas pautas.
 
     .titulo-sexto.color-acento-contenido
       p.mb-0 Normatividad régimen de aprovechamiento de recursos naturales. 
-    img.mb-5(src="@/assets/curso/tema4/img11.png")
-    p.mb-0 Por otro lado, se debe hacer un manejo sostenible de los productos no maderables donde se planifica y ejecuta su manejo, salvaguardando el ecosistema para mejorar la estructura y potencial de sus diferentes usos comerciales y tradicionales.
+    img.mb-5(src="@/assets/curso/tema4/img11.png" data-aos="fade-right")
+    p.mb-0(data-aos="fade-left") Por otro lado, se debe hacer un manejo sostenible de los productos no maderables donde se planifica y ejecuta su manejo, salvaguardando el ecosistema para mejorar la estructura y potencial de sus diferentes usos comerciales y tradicionales.
     
     .fondo6.mb-4 
       Separador    
       #t_4_4.titulo-segundo.color-acento-contenido
         h2 4.4  Convenios internacionales de sostenibilidad
 
-      p.mb-5 A nivel internacional existen diversos convenios de gran importancia donde se enmarcan diferentes actividades que ayudan a la conservación y el sostenimiento de los recursos naturales que, en este caso, serían los bosques, por lo anterior, se invita a revisar el siguiente recurso de aprendizaje para profundizar en el tema.
+      p.mb-5(data-aos="fade-left") A nivel internacional existen diversos convenios de gran importancia donde se enmarcan diferentes actividades que ayudan a la conservación y el sostenimiento de los recursos naturales que, en este caso, serían los bosques, por lo anterior, se invita a revisar el siguiente recurso de aprendizaje para profundizar en el tema.
 
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="fade-right")
         .col-lg-8
           ul.lista-ul--color.lista-ul--separador.position-relative
             li.d-flex.align-items-center 
@@ -158,7 +158,7 @@
               p.mb-0 Declaración de Bariloche en el II Congreso Latinoamericano de Parques y otras Áreas Protegidas del año 2007.
             li.d-flex.align-items-center 
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10
         p.mb-4 Teniendo en cuenta lo anterior, es necesario hacer énfasis en el Convenio Internacional de las Maderas Tropicales que en el título 1, artículo 1, menciona dentro de sus objetivos…
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
@@ -171,7 +171,7 @@
         p.mb-4 Así mismo, se mencionan dos convenios importantes que hacen énfasis en los productos no maderables los cuales se describen a continuación.
         p.mb-0 Convenio sobre la Diversidad Biológica, este tiene tres objetivos, a saber:
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-8
         SlyderF.mb-5(columnas="col-lg-12")
           .tarjeta.color-principal.p-0        
@@ -187,9 +187,9 @@
             div.slyder1 
               p.text-center.py-2.mb-0 Disfrute equitativo por todos los beneficios derivados.
 
-    p.mb-4 Por otro lado, se calcula que los ecosistemas forestales corresponden al 70% de las especies vegetales y animales del mundo, en este Convenio se resaltan los conocimientos tradicionales sobre los bosques con que cuentan los pueblos indígenas.
+    p.mb-4(data-aos="fade-left") Por otro lado, se calcula que los ecosistemas forestales corresponden al 70% de las especies vegetales y animales del mundo, en este Convenio se resaltan los conocimientos tradicionales sobre los bosques con que cuentan los pueblos indígenas.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-7.p-4.d-flex(style="background-color:#F1F6EA")
         div.p-0.w-100
           p.mb-4 Otro convenio importante es el      Acuerdo Mundial del Comercio que tiene en cuenta la producción para el comercio y la protección del medio ambiente; entre sus principales objetivos se destacan aplicaciones a los bosques, como:

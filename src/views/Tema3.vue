@@ -1,22 +1,22 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5    
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.tema3   
     .titulo-principal.color-acento-contenido.mb-0
       .titulo-principal__numero
         span 3 
       h1 Análisis del mercado para productos no maderables del bosque
 
     .fondo1.p-0.pt-4.m-0
-      p.mb-4Los productos no maderables del bosque cumplen un papel importante en todas las comunidades, que en su mayoría son rurales, puesto que ayudan a su mantenimiento y bienestar; además, contribuyen a la creación de empleos e ingresos económicos y son una fuente de seguridad alimentaria para las familias.
+      p.mb-4(data-aos="fade-left") Los productos no maderables del bosque cumplen un papel importante en todas las comunidades, que en su mayoría son rurales, puesto que ayudan a su mantenimiento y bienestar; además, contribuyen a la creación de empleos e ingresos económicos y son una fuente de seguridad alimentaria para las familias.
 
-      .cajon.color-primario.p-4.mb-4
+      .cajon.color-primario.p-4.mb-4(data-aos="fade-right")
         p.mb-0 En esta sección se describe la manera más simple para la comercialización de los productos no maderables, por lo que se inicia mencionando la gran importancia que han tomado estos productos además de los orgánicos en la sociedad actual que hoy más consciente frente al tipo de alimentos que consume para su bienestar, por lo anterior, es importante resaltar los pasos lo que se indican en el siguiente recurso de aprendizaje:
 
       ImagenInfograficaB.color-acento-botones
         template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/tema3/img02.png')
+          figure(data-aos="fade-left")
+            img(src='@/assets/curso/tema3/img02.svg')
                       
         div.fondo3(x="23.5%" y="42%"  numero="+")
           img(src='@/assets/curso/tema3/img08.png')
@@ -49,9 +49,9 @@
       #t_3_1.titulo-segundo.color-acento-contenido
         h2 3.1. Identificación de fuentes de consulta (bases de datos especializadas y medios de búsqueda)
 
-    p.mb-4 Para iniciar, es importante resaltar la importancia de los productos no maderables en la actualidad, ya que su consumo ha aumentado por lo que tienen potencial para su comercialización, tanto que hay una enorme cantidad de productos que ofrecen diversas oportunidades para empezar algún tipo de iniciativa o emprendimiento de productos no maderables en futuros mercados.
+    p.mb-4(data-aos="fade-right") Para iniciar, es importante resaltar la importancia de los productos no maderables en la actualidad, ya que su consumo ha aumentado por lo que tienen potencial para su comercialización, tanto que hay una enorme cantidad de productos que ofrecen diversas oportunidades para empezar algún tipo de iniciativa o emprendimiento de productos no maderables en futuros mercados.
     
-    .row.justify-content-center.fondo2.mb-5
+    .row.justify-content-center.fondo2.mb-5(data-aos="fade-left")
       .col-lg-1
       .col-lg-7.py-4
         p.mb-4 Por lo anterior, se hace necesario el conocimiento de fuentes de consulta confiables que provean información de alta calidad y validada por entidades nacionales e internacionales. Una de ellas es la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO), donde se podrá encontrar diversos artículos sobre los Productos Forestales No Madereros (PFNM), al hacer investigación sobre el tema, se ha visto el aumento de su uso lo que ha llevado al desarrollo de distintas estadísticas, informes, datos y programas, etc., que aportarán información desde diferentes puntos de vista, por ejemplo: 
@@ -71,9 +71,9 @@
       .col-lg-4.p-0
         img(src='@/assets/curso/tema3/img03.png')
     
-    p.mb-5.text-center  A continuación, se muestra una tabla con algunos sitios web o repositorios de contenidos digitales que le ayudaran a profundizar en el tema.
+    p.mb-5.text-center(data-aos="fade-right")  A continuación, se muestra una tabla con algunos sitios web o repositorios de contenidos digitales que le ayudaran a profundizar en el tema.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
         .tabla-b.color-acento-contenido
           table        
@@ -152,20 +152,20 @@
       #t_3_2.titulo-segundo.color-acento-contenido
         h2 3.2. América del sur (Brasil, Colombia, Ecuador, Paraguay, Venezuela y Perú).
       
-      p.mb-4 Para entender en realidad los deseos y necesidades de los clientes potenciales del mercado se debe investigar el mercado y las alternativas de comercialización de los productos no maderables, para que estos lleguen al consumidor final, cabe resaltar que cada producto tiene diferente oferta y demanda, lo que dice que hay público objetivo para cada uno.
-      p.mb-5 A continuación, se presentan algunos productos no maderables que se producen en América del Sur:
+      p.mb-4(data-aos="fade-right") Para entender en realidad los deseos y necesidades de los clientes potenciales del mercado se debe investigar el mercado y las alternativas de comercialización de los productos no maderables, para que estos lleguen al consumidor final, cabe resaltar que cada producto tiene diferente oferta y demanda, lo que dice que hay público objetivo para cada uno.
+      p.mb-5(data-aos="fade-left") A continuación, se presentan algunos productos no maderables que se producen en América del Sur:
 
       .titulo-sexto.color-acento-contenido
         p.mb-0 Descripción y clasificación de las partes de la planta
       
-      img.mb-5(src="@/assets/curso/tema3/img11.svg")
+      img.mb-5(src="@/assets/curso/tema3/img11.svg" data-aos="fade-right")
 
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="fade-left")
         .col-lg-10
           .cajon.color-acento-contenido.p-4.px-5
             p.mb-0 La oferta de estos productos va ligada con la demanda que se tiene, ya que no son productos que se almacenen en grandes cantidades y se comercialicen inmediatamente a los diferentes compradores (exceptuando a los compradores industriales), por esto es importante la realización de estudios de mercado que se centren en estos productos forestales no madereros, los cuales pueden ayudar a determinar estadísticamente las diferentes variables para estos productos.
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-10
         p.mb-5 Dichos productos forestales no madereros contemplan un alto grado de complejidad por su comercialización, debido a su versatilidad y cantidad, un claro ejemplo de esto es que a nivel mundial se conocen alrededor de 3.000 aceites, pero cerca de 10% es decir, 300 aceites, tienen relevancia comercial.  
 
@@ -210,80 +210,81 @@ export default {
 </script>
 
 <style lang="sass">
-.fondo3
-  margin-top: 45px
+.tema3
+  .fondo3
+    margin-top: 45px
 
-  .separador-container
-    padding: 0px 0px 45px 0px;
+    .separador-container
+      padding: 0px 0px 45px 0px;
 
-  position: relative
-  padding-bottom: 1rem
-  div, p, img
     position: relative
+    padding-bottom: 1rem
+    div, p, img
+      position: relative
 
-  &::before
-    content: ""
-    position: absolute
-    top: 0
-    left: 2.5%
-    width: 108%
-    height: 100%
-    margin: 0 -5rem
-    background-image: url("../assets/curso/tema3/img10.png")
-    // background-size: contain
-    background-repeat: no-repeat
+    &::before
+      content: ""
+      position: absolute
+      top: 0
+      left: 2.5%
+      width: 108%
+      height: 100%
+      margin: 0 -5rem
+      background-image: url("../assets/curso/tema3/img10.png")
+      // background-size: contain
+      background-repeat: no-repeat
 
-.anexo
-  background-color: #F0DDD8 !important
-  p
-    color: #942E19
-    font-size: 14px
-    font-weight: bold
+  .anexo
+    background-color: #F0DDD8 !important
+    p
+      color: #942E19
+      font-size: 14px
+      font-weight: bold
 
-.img-infografica-b__modal
-  border-radius: 15px !important
-  background: rgba(255,247,228,1);
-  background: -moz-linear-gradient(top, rgba(255,247,228,1) 0%, rgba(246,250,240,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,247,228,1)), color-stop(100%, rgba(246,250,240,1)));
-  background: -webkit-linear-gradient(top, rgba(255,247,228,1) 0%, rgba(246,250,240,1) 100%);
-  background: -o-linear-gradient(top, rgba(255,247,228,1) 0%, rgba(246,250,240,1) 100%);
-  background: -ms-linear-gradient(top, rgba(255,247,228,1) 0%, rgba(246,250,240,1) 100%);
-  background: linear-gradient(to bottom, rgba(255,247,228,1) 0%, rgba(246,250,240,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff7e4', endColorstr='#f6faf0', GradientType=0 );
-  p
-    color: $color-sistema-texto !important
+  .img-infografica-b__modal
+    border-radius: 15px !important
+    background: rgba(255,247,228,1);
+    background: -moz-linear-gradient(top, rgba(255,247,228,1) 0%, rgba(246,250,240,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,247,228,1)), color-stop(100%, rgba(246,250,240,1)));
+    background: -webkit-linear-gradient(top, rgba(255,247,228,1) 0%, rgba(246,250,240,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,247,228,1) 0%, rgba(246,250,240,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,247,228,1) 0%, rgba(246,250,240,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,247,228,1) 0%, rgba(246,250,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff7e4', endColorstr='#f6faf0', GradientType=0 );
+    p
+      color: $color-sistema-texto !important
 
-.img-infografica-b__modal__btn-cerrar
-  i
-    border-radius: 6px
-    padding: 5px
-    background-color: #FFFFFF
-    color: $color-sistema-texto
+  .img-infografica-b__modal__btn-cerrar
+    i
+      border-radius: 6px
+      padding: 5px
+      background-color: #FFFFFF
+      color: $color-sistema-texto
 
-.fondo2
-  background: rgba(246,250,240,1);
-  background: -moz-linear-gradient(top, rgba(246,250,240,1) 0%, rgba(229,239,212,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(246,250,240,1)), color-stop(100%, rgba(229,239,212,1)));
-  background: -webkit-linear-gradient(top, rgba(246,250,240,1) 0%, rgba(229,239,212,1) 100%);
-  background: -o-linear-gradient(top, rgba(246,250,240,1) 0%, rgba(229,239,212,1) 100%);
-  background: -ms-linear-gradient(top, rgba(246,250,240,1) 0%, rgba(229,239,212,1) 100%);
-  background: linear-gradient(to bottom, rgba(246,250,240,1) 0%, rgba(229,239,212,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6faf0', endColorstr='#e5efd4', GradientType=0 );
+  .fondo2
+    background: rgba(246,250,240,1);
+    background: -moz-linear-gradient(top, rgba(246,250,240,1) 0%, rgba(229,239,212,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(246,250,240,1)), color-stop(100%, rgba(229,239,212,1)));
+    background: -webkit-linear-gradient(top, rgba(246,250,240,1) 0%, rgba(229,239,212,1) 100%);
+    background: -o-linear-gradient(top, rgba(246,250,240,1) 0%, rgba(229,239,212,1) 100%);
+    background: -ms-linear-gradient(top, rgba(246,250,240,1) 0%, rgba(229,239,212,1) 100%);
+    background: linear-gradient(to bottom, rgba(246,250,240,1) 0%, rgba(229,239,212,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6faf0', endColorstr='#e5efd4', GradientType=0 );
 
-.fondo1
-  position: relative
-  padding-bottom: 1rem
-  p
+  .fondo1
     position: relative
-  &::before
-    content: ""
-    position: absolute
-    top: 0
-    left: 2.5%
-    width: 108%
-    height: 100%
-    margin: 0 -5rem
-    background-image: url("../assets/curso/tema1/img01.png")
-    // background-size: contain
-    background-repeat: no-repeat
+    padding-bottom: 1rem
+    p
+      position: relative
+    &::before
+      content: ""
+      position: absolute
+      top: 0
+      left: 2.5%
+      width: 108%
+      height: 100%
+      margin: 0 -5rem
+      background-image: url("../assets/curso/tema1/img01.png")
+      // background-size: contain
+      background-repeat: no-repeat
 </style>
