@@ -10,8 +10,10 @@
     .fondo1.p-0.pt-4.m-0.position-relative
       .row.justify-content-center(data-aos="fade-left")
         .col-lg-10
-          img(src="@/assets/curso/tema2/img02.png")
-      .position-absolute(style="top: 60px")
+          img.d-none.d-xl-block(src="@/assets/curso/tema2/img02.png")
+          div.p-3.d-block.d-xl-none(style="background-color: #F1F6EA; border-radius: 15px")
+            p.mb-0 Las plantas son muy importantes para que exista la vida en la Tierra, ya que además de ser receptoras de energía solar, son las que generan el oxígeno y todo lo que consumimos como sociedad está relacionado directamente con ellas. Por lo anterior, en el siguiente recurso de aprendizaje se explican las dos definiciones clave para entender su producción, por lo que se invita a revisarlo detalladamente.
+      .position-absolute.d-none.d-xl-block(style="top: 60px")
         .row.justify-content-center
           .col-lg-4
           .col-lg-7.px-5
@@ -29,7 +31,7 @@
 
       SlyderE(indicadores="derecha" data-aos="fade-right")
         .row
-          .col-lg-4
+          .col-xl-4
             h4 Taxonomía
             p.mb-4 Es la ciencia que trata los principios de la clasificación de los seres vivos y este comprende: 
             p.mb-0 <span style="color: #FFC846">●</span> La identificación. 
@@ -41,15 +43,15 @@
             p.mb-0 <span style="color: #FFC846">●</span> Fisiológicas.
             p.mb-0 <span style="color: #FFC846">●</span> Morfológicas.
             p.mb-0 <span style="color: #FFC846">●</span> Citológicas.
-            p.mb-0 <span style="color: #FFC846">●</span> Otras de los organismos.
+            p.mb-3.mb-xl-0 <span style="color: #FFC846">●</span> Otras de los organismos.
 
-          .col-lg-8
+          .col-xl-8
             img(src="@/assets/curso/tema2/img03.png")
         .row
-          .col-lg-4
+          .col-xl-4
             h4 Botánica
-            p.mb-0 Es la disciplina que estudia, describe y clasifica las plantas y su relación entre sí con otros organismos, siendo esta una rama de la biología. La biología estudia los reinos plantae, es decir, las plantas entre los cuales incluye: fungi, hongos y chromista. Todos estos tienen en común que no tienen cloroplastos ni movilidad. 
-          .col-lg-8
+            p.mb-3mb-xl-0 Es la disciplina que estudia, describe y clasifica las plantas y su relación entre sí con otros organismos, siendo esta una rama de la biología. La biología estudia los reinos plantae, es decir, las plantas entre los cuales incluye: fungi, hongos y chromista. Todos estos tienen en común que no tienen cloroplastos ni movilidad. 
+          .col-xl-8
             img(src="@/assets/curso/tema2/img04.png")
 
     Separador
@@ -76,44 +78,44 @@
     
     p.text-center.mb-5(data-aos="fade-right") En la siguiente tabla se muestra la taxonomía de algunos productos no maderables. 
     
-    .row.mb-5
-      .col-lg-6.pe-4
-        .row.align-items-center.fondo2.mb-0(data-aos="fade-left")
+    .row.mb-3.mb-xl-5
+      .col-xl-6.pe-4
+        .row.align-items-center.fondo2.mb-3.mb-xl-0(data-aos="fade-left")
           .col-lg-6.p-0
             img(src="@/assets/curso/tema2/img07.png")
-          .col-lg-6.px-4
+          .col-lg-6.px-4.py-3
             h4.mb-2 Palma milpesos
             p.mb-2 Se usa para hacer aceite.
             a.boton.color-acento-botones.me-0(href="https://www.ecured.cu/%C3%81rbol_del_caucho" target="_blank" type="application/pdf")
               span Enlace web
               i.fas.fa-link.p-1(style="background-color:#FFFFFF; color: #942E19")
-      .col-lg-6.ps-4
+      .col-xl-6.ps-4
         .row.align-items-center.fondo2.mb-0(data-aos="fade-right")
           .col-lg-6.p-0
             img(src="@/assets/curso/tema2/img08.png")
-          .col-lg-6.px-4
+          .col-lg-6.px-4.py-3
             h4.mb-2 Guarumo
             p.mb-2 Se usa para hacer medicamentos para la diabetes.
             a.boton.color-acento-botones.me-0(href="https://panama.inaturalist.org/taxa/145603-Bertholletia-excelsa" target="_blank" type="application/pdf")
               span Enlace web
               i.fas.fa-link.p-1(style="background-color:#FFFFFF; color: #942E19")
     
-    .row.mb-5
-      .col-lg-6.pe-4
-        .row.align-items-center.fondo2.mb-0(data-aos="fade-left")
+    .row.mb-3.mb-xl-5
+      .col-xl-6.pe-4
+        .row.align-items-center.fondo2.mb-3.mb-xl-0(data-aos="fade-left")
           .col-lg-6.p-0
             img(src="@/assets/curso/tema2/img09.png")
-          .col-lg-6.px-4
+          .col-lg-6.px-4.py-3
             h4.mb-2 Árbol de caucho
             p.mb-2 Látex, se usa para hacer goma.
             a.boton.color-acento-botones.me-0(href="https://colombia.inaturalist.org/taxa/365688-Oenocarpus-bataua" target="_blank" type="application/pdf")
               span Enlace web
               i.fas.fa-link.p-1(style="background-color:#FFFFFF; color: #942E19")
-      .col-lg-6.ps-4
+      .col-xl-6.ps-4
         .row.align-items-center.fondo2.mb-0(data-aos="fade-right")
           .col-lg-6.p-0
             img(src="@/assets/curso/tema2/img10.png")
-          .col-lg-6.px-4
+          .col-lg-6.px-4.py-3
             h4.mb-2 Nuez del Brasil
             p.mb-2 Se utiliza como alimento.
             a.boton.color-acento-botones.me-0(href="https://colombia.inaturalist.org/taxa/160255-Cecropia-obtusifolia" target="_blank" type="application/pdf")
@@ -121,11 +123,11 @@
               i.fas.fa-link.p-1(style="background-color:#FFFFFF; color: #942E19")
     
     .row(data-aos="fade-left")
-      .col-lg-6.pe-4
+      .col-xl-6.pe-4
         .row.align-items-center.fondo2.mb-0
           .col-lg-6.p-0
             img(src="@/assets/curso/tema2/img11.png")
-          .col-lg-6.px-4
+          .col-lg-6.px-4.py-3
             h4.mb-2 Achiote
             p.mb-2 Se usa contra el dolor, en la selva amazónica, y para tinturar objetos.
             a.boton.color-acento-botones.me-0(href="https://www.ecured.cu/%C3%81rbol_del_caucho" target="_blank" type="application/pdf")
@@ -174,7 +176,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img16.png')})`}"
           )
-          .bloque-texto-g__texto.p-4.py-4(style="width: 67%")
+          .bloque-texto-g__texto.p-4.py-4
             p.mb-0 La marcación de las muestras debe llevar la información de la procedencia y el nombre común de la misma, después de esto se manejarán con cadena de custodia para no alterar, contaminar o destruir las condiciones de la muestra y que llegue en perfecto estado al laboratorio que vaya a examinarlas.
 
 
@@ -207,6 +209,10 @@
 
           
 
+    br
+    br
+    br
+    
 </template>
 
 <script>
@@ -252,11 +258,12 @@ export default {
       position: absolute
       top: 0
       left: 2.5%
-      width: 108%
+      width: 134%
+      //width: 108%
       height: 100%
       margin: 0 -5rem
       background-image: url("../assets/curso/tema2/img12.png")
-      // background-size: contain
+      //background-size: contain
       background-repeat: no-repeat
 
   .fondo2

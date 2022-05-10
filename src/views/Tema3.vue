@@ -57,16 +57,16 @@
         p.mb-4 Por lo anterior, se hace necesario el conocimiento de fuentes de consulta confiables que provean información de alta calidad y validada por entidades nacionales e internacionales. Una de ellas es la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO), donde se podrá encontrar diversos artículos sobre los Productos Forestales No Madereros (PFNM), al hacer investigación sobre el tema, se ha visto el aumento de su uso lo que ha llevado al desarrollo de distintas estadísticas, informes, datos y programas, etc., que aportarán información desde diferentes puntos de vista, por ejemplo: 
         div.slider-espcial.d-flex.justify-content-center.align-items-center.px-3.mb-5
             .row.d-flex.justify-content-center.align-items-center.w-100
-              .col-lg-1.indicador__container.p-0
+              .col-1.indicador__container.p-0
                 img(src="@/assets/curso/tema3/img04.svg", v-on:click="anterior" @mouseover="mostrarIndicador = false")
                 .indicador--click(v-if="mostrarIndicador")
-              .col-lg-10
+              .col-10
                 p.mb-0.text-center(v-if="espacial1==1", data-aos="slide-left") <span style="color: #942E19">●</span> La recolección de saberes ancestrales. 
                 p.mb-0.text-center(v-if="espacial1==2", data-aos="slide-left") <span style="color: #942E19">●</span> Su uso.
                 p.mb-0.text-center(v-if="espacial1==3", data-aos="slide-left") <span style="color: #942E19">●</span> La ubicación. 
                 p.mb-0.text-center(v-if="espacial1==4", data-aos="slide-left") <span style="color: #942E19">●</span> Su producción o transformación. 
                 p.mb-0.text-center(v-if="espacial1==5", data-aos="slide-left") <span style="color: #942E19">●</span> La comercialización, entre otras cosas.                
-              .col-lg-1.p-0
+              .col-1.p-0
                 img(src="@/assets/curso/tema3/img05.svg" v-on:click="siguiente" )
       .col-lg-4.p-0
         img(src='@/assets/curso/tema3/img03.png')
@@ -173,7 +173,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema3/img12.png')})`}"
           )
-          .bloque-texto-g__texto.p-4.py-4(style="width: 68%;")
+          .bloque-texto-g__texto.p-4.py-4
             p.mb-0 Existen varios mercados para estos productos no maderables, los cuales pueden ser las personas naturales, mercados locales, mercados especializados y avanzados en diferentes técnicas de transformación en diferentes países desarrollados o en vía de desarrollo.
 </template>
 

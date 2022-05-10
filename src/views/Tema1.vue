@@ -10,8 +10,10 @@
     .fondo1.p-0.pt-4.m-0.position-relative(data-aos="fade-left")
       .row.justify-content-center
         .col-lg-10
-          img(src="@/assets/curso/tema1/img02.png")
-      .position-absolute(style="top: 50px")
+          img.d-none.d-lg-block(src="@/assets/curso/tema1/img02.png")
+          div.p-3.d-block.d-lg-none(style="background-color: #DEF0FA; border-radius: 15px")
+            p.mb-0 Para identificar los productos no maderables del bosque se debe tener claro los términos a los que hace referencia y que componentes lo conforman; los productos no maderables son los que excluyen a la madera del producto beneficio o servicio, por lo que este material debe proceder de un bosque.
+      .position-absolute.d-none.d-lg-block(style="top: 50px")
         .row.justify-content-center
           .col-lg-5
           .col-lg-6.px-5
@@ -25,22 +27,22 @@
       p.mb-4(data-aos="fade-right") El término Productos No Maderables - PNM hace referencia frecuentemente a los productos forestales no leñosos y según la FAO (1999) “… consisten en bienes de origen biológico distintos de la madera, procedentes de los bosques, de otros terrenos arbolados y de árboles situados fuera de los bosques”. Estos son extraídos de un ecosistema natural o plantaciones ordenadas, son utilizados en el hogar y distribuidos en el mercado como:
       .row(data-aos="fade-left")
         .col-lg-3
-          div.fondo2.py-4
+          div.fondo2.py-4.mb-4.mb-lg-0
             div.px-5
               img.mb-4(src="@/assets/curso/tema1/img03.svg")
             h4.mb-0.text-center Alimento
         .col-lg-3
-          div.fondo3.py-4
+          div.fondo3.py-4.mb-4.mb-lg-0
             div.px-5
               img.mb-4(src="@/assets/curso/tema1/img04.svg")
             h4.mb-0.text-center Medicina
         .col-lg-3
-          div.fondo2.py-4
+          div.fondo2.py-4.mb-4.mb-lg-0
             div.px-5
               img.mb-4(src="@/assets/curso/tema1/img05.svg")
             h4.mb-0.text-center Forraje
         .col-lg-3
-          div.fondo3.py-4
+          div.fondo3.py-4.mb-4.mb-lg-0
             div.px-5
               img.mb-4(src="@/assets/curso/tema1/img06.svg")
             h4.mb-0.text-center Material de construcción
@@ -134,7 +136,7 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-3
-        img(src='@/assets/curso/tema1/img19.svg')
+        img.mb-3.mb-xl-0(src='@/assets/curso/tema1/img19.svg')
       .col-lg-5
         p.mb-4 Esto se puede lograr de la siguiente forma:
         p.mb-0 <span style="color: #942E19">●</span> Aplicando métodos perfeccionados de recolección.
@@ -144,7 +146,7 @@
         p.mb-0 <span style="color: #942E19">●</span> Planeando la recolección de productos de alta calidad. 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-10.fondo5.p-0.pt-4.pb-1.mb-4        
+      .col-lg-10.fondo5.p-3.pt-4.pb-1.mb-4        
         p.text-center.mb-5 Por lo anterior, se hace necesario adelantar un aprovechamiento óptimo de los productos no maderables del bosque y esto inicia con:        
         .row.justify-content-center
           .col-lg-1
@@ -153,13 +155,13 @@
               p.mb-3 <span style="color: #942E19">●</span> La selección de especies dominantes con base en los siguientes aspectos: 
               .row.mb-3
                 .col-xl-4
-                  div.py-2(Style="border-radius: 8px; background-color: #869D69")
+                  div.py-2.mb-3.m-xl-0(Style="border-radius: 8px; background-color: #869D69")
                     p.mb-0.text-center.text-white <b>Ecológicos</b>
                 .col-xl-4
-                  div.py-2(Style="border-radius: 8px; background-color: #869D69")
+                  div.py-2.mb-3.m-xl-0(Style="border-radius: 8px; background-color: #869D69")
                     p.mb-0.text-center.text-white <b>Sociales</b>
                 .col-xl-4
-                  div.py-2(Style="border-radius: 8px; background-color: #869D69")
+                  div.py-2.mb-3.m-xl-0(Style="border-radius: 8px; background-color: #869D69")
                     p.mb-0.text-center.text-white <b>Culturales</b>
               
               p.mb-0 <span style="color: #942E19">●</span> La revisión inicial de la oferta del recurso.
@@ -217,11 +219,11 @@ export default {
       position: absolute
       top: 0
       left: 2.5%
-      width: 108%
+      width: 134%
       height: 100%
       margin: 0 -5rem
       background-image: url("../assets/curso/tema1/img16.png")
-      // background-size: contain
+      //background-size: contain
       background-repeat: no-repeat
 
   .fa-chevron-left:before

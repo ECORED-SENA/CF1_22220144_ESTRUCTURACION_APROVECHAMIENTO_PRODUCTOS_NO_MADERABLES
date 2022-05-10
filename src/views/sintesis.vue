@@ -12,7 +12,7 @@
         .col-lg-4
           img(src="@/assets/curso/sintesis/img02.png")
 
-      p.mb-4(data-aos="fade-right") Todo esto es importante, ya que se busca generar propuestas de uso y aprovechamiento coherentes con la oferta del ecosistema y la demanda en los mercados; es de aclarar que se inicia a partir del conocimiento ancestral de las comunidades locales para entrar en la disciplina de la botánica económica, entendida esta como la ciencia que considera aspectos: taxonómicos, farmacológicos, ecológicos y económicos de los productos del bosque, con el fin de abrir paso a la economía sostenible.
+      p.mb-4.py-3.py-xl-0(data-aos="fade-right") Todo esto es importante, ya que se busca generar propuestas de uso y aprovechamiento coherentes con la oferta del ecosistema y la demanda en los mercados; es de aclarar que se inicia a partir del conocimiento ancestral de las comunidades locales para entrar en la disciplina de la botánica económica, entendida esta como la ciencia que considera aspectos: taxonómicos, farmacológicos, ecológicos y económicos de los productos del bosque, con el fin de abrir paso a la economía sostenible.
 
       
 

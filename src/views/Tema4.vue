@@ -27,33 +27,42 @@
     
     .tarjetas1.mb-4(data-aos="fade-right")
       .row.justify-content-center.align-items-center        
-            .col-lg-4
-              .TFcontainer.mb-3
+            .col-xxl-4.col-xl-6.col-md-8
+              .TFcontainer.mb-3.d-none.d-sm-block
                 img.TFimage(src='@/assets/curso/tema4/img03.png')
                 .TFoverlay.p-3
                   h4 Desarrollo territorial
                   p.mb-0 Estos documentos dan una orientación clara para la implementación de los lineamientos en el sector ambiental, los cuales tienen que ver con Planes de Desarrollo Territorial y Planes de Ordenamiento Territorial.
-            .col-lg-4
-              .TFcontainer.mb-3
+              .TFoverlay2.p-3.d-block.d-sm-none.mb-3
+                  h4 Desarrollo territorial
+                  p.mb-0 Estos documentos dan una orientación clara para la implementación de los lineamientos en el sector ambiental, los cuales tienen que ver con Planes de Desarrollo Territorial y Planes de Ordenamiento Territorial.
+            .col-xxl-4.col-xl-6.col-md-8
+              .TFcontainer.mb-3.d-none.d-sm-block
                 img.TFimage(src='@/assets/curso/tema4/img04.png')
                 .TFoverlay.p-3
                   h4 Determinantes ambientales
                   p.mb-0 Estos documentos dan indicaciones para implementar los determinantes ambientales en los Planes de Ordenamiento Territorial.
-            .col-lg-4
-              .TFcontainer.mb-3
+              .TFoverlay2.p-3.d-block.d-sm-none.mb-3
+                h4 Determinantes ambientales
+                p.mb-0 Estos documentos dan indicaciones para implementar los determinantes ambientales en los Planes de Ordenamiento Territorial.
+            .col-xxl-4.col-xl-6.col-md-8
+              .TFcontainer.mb-3.d-none.d-sm-block
                 img.TFimage(src='@/assets/curso/tema4/img05.png')
                 .TFoverlay.p-3
                   h4 Función ecológica de la propiedad 
                   p.mb-0 Este documento orienta las Corporaciones Autónomas Regionales y de Desarrollo Sostenible con las comunidades indígenas en Procesos de Ordenamiento Ambiental Territorial.
+              .TFoverlay2.p-3.d-block.d-sm-none.mb-3
+                h4 Función ecológica de la propiedad 
+                p.mb-0 Este documento orienta las Corporaciones Autónomas Regionales y de Desarrollo Sostenible con las comunidades indígenas en Procesos de Ordenamiento Ambiental Territorial.
     
     p.mb-4(data-aos="fade-right") Por otro lado, se debe tener en cuenta el Plan de Ordenamiento Ambiental que es un instrumento muy importante para integrar diferentes variables ambientales en busca del desarrollo sostenible local para mantener el equilibrio entre la demanda y la oferta lo que implica necesariamente un adecuado ordenamiento de ocupación y uso de los territorios. 
     
     .row.justify-content-center.mb-5(data-aos="fade-left")
-      .col-lg-5.p-0
+      .col-xl-5.p-0
         img(src="@/assets/curso/tema4/img06.png")
-      .col-lg-7.d-flex.fondo2
+      .col-xl-7.d-flex.fondo2
         div.d-flex.align-items-center
-          div.p-0
+          div.p-3.p-xl-0
             p.mb-3 Así que en este plan se organizan los terrenos y se va dando la inclusión e importancia de los componentes ambientales, se resalta que el ordenamiento ambiental es el proceso planificado de la política y la técnica administrativa que incluye el sistema socioespacial, pero, principalmente, para esta organización se tiene en cuenta los siguientes elementos:
             p.mb-0 <span style="color: #FFC846">●</span> Las condiciones naturales. 
             p.mb-0 <span style="color: #FFC846">●</span> Los recursos naturales.
@@ -141,7 +150,7 @@
       p.mb-5(data-aos="fade-left") A nivel internacional existen diversos convenios de gran importancia donde se enmarcan diferentes actividades que ayudan a la conservación y el sostenimiento de los recursos naturales que, en este caso, serían los bosques, por lo anterior, se invita a revisar el siguiente recurso de aprendizaje para profundizar en el tema.
 
       .row.justify-content-center(data-aos="fade-right")
-        .col-lg-8
+        .col-lg-8.px-5.px-xl-0
           ul.lista-ul--color.lista-ul--separador.position-relative
             li.d-flex.align-items-center 
             li.d-flex.align-items-center 
@@ -256,7 +265,7 @@ export default {
     position: absolute
     top: 0
     left: 2.5%
-    width: 108%
+    width: 134%
     height: 100%
     margin: 0 -5rem
     background-image: url("../assets/curso/tema4/img12.png")
@@ -332,6 +341,11 @@ export default {
   height: 50px
   transition: .5s ease
   background-color: rgba(229, 239, 212, 0.95)
+
+.TFoverlay2
+  border-radius: 10px
+  background-color: rgba(229, 239, 212, 0.95)
+
 
 .TFcontainer:hover .TFoverlay
   height: 100%
