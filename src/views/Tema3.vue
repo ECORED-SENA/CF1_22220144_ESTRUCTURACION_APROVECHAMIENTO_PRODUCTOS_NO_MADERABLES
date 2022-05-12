@@ -8,7 +8,7 @@
       h1 Análisis del mercado para productos no maderables del bosque
 
     .fondo1.p-0.pt-4.m-0
-      p.mb-4(data-aos="fade-left") Los productos no maderables del bosque cumplen un papel importante en todas las comunidades, que en su mayoría son rurales, puesto que ayudan a su mantenimiento y bienestar; además, contribuyen a la creación de empleos e ingresos económicos y son una fuente de seguridad alimentaria para las familias.
+      p.mb-4(data-aos="fade-left") Los productos no maderables del bosque cumplen un papel importante en todas las comunidades, que en su mayoría son rurales, puesto que ayudan a su mantenimiento y bienestar; además, contribuyen a la creación de empleos e ingresos económicos y son una fuente de seguridad alimentaria para las familias..
 
       .cajon.color-primario.p-4.mb-4(data-aos="fade-right")
         p.mb-0 En esta sección se describe la manera más simple para la comercialización de los productos no maderables, por lo que se inicia mencionando la gran importancia que han tomado estos productos además de los orgánicos en la sociedad actual que hoy más consciente frente al tipo de alimentos que consume para su bienestar, por lo anterior, es importante resaltar los pasos lo que se indican en el siguiente recurso de aprendizaje:
