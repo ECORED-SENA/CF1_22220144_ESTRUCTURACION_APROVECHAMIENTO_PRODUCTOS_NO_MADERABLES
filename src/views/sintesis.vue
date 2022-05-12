@@ -19,9 +19,11 @@
       .row.justify-content-center(data-aos="fade-left")
         .col-lg-12.mb-5
           figure
-            img(src="@/assets/curso/sintesis/img03.svg" data-aos="fade-left")
-        .col-auto
-          a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+            img(src="@/assets/curso/sintesis/img03.svg" data-aos="fade-left")        
+
+    .row.justify-content-center(data-aos="fade-left")
+      .col-6.col-md-4.col-lg-3.px-xl-5.px-0
+          a.anexo.mb-4(:href="obtenerLink('downloads/sintesis.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto

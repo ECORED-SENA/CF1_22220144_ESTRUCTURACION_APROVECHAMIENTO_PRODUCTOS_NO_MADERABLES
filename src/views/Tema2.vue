@@ -149,21 +149,21 @@
           .row(data-aos="fade-right")
             .col-lg-4
               .tarjeta-avatar
-                img(src='@/assets/curso/tema2/img13.png' alt='AvatarTop')            
+                img(src='@/assets/curso/tema2/img13.svg' alt='AvatarTop')            
                 .tarjeta(style="background-color: #F0DDD8")
                   .p-5
                     h4.text-center Dimensiones
                     p.mb-0 Las piezas deben medir mínimo 6 x 5 x 3 cm y poseer albura como duramen. 
             .col-lg-4
               .tarjeta-avatar
-                img(src='@/assets/curso/tema2/img14.png' alt='AvatarTop')            
+                img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')            
                 .tarjeta(style="background-color: #F0DDD8")
                   .p-5
                     h4.text-center Dimensiones
                     p.mb-0 Las piezas deben medir mínimo 6 x 5 x 3 cm y poseer albura como duramen. 
             .col-lg-4
               .tarjeta-avatar
-                img(src='@/assets/curso/tema2/img15.png' alt='AvatarTop')            
+                img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')            
                 .tarjeta(style="background-color: #F0DDD8")
                   .p-5
                     h4.text-center Dimensiones

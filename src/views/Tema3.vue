@@ -18,10 +18,10 @@
           figure(data-aos="fade-left")
             img(src='@/assets/curso/tema3/img02.svg')
                       
-        div.fondo3(x="23.5%" y="42%"  numero="+")
+        div(x="23.5%" y="42%"  numero="+")
           img(src='@/assets/curso/tema3/img08.png')
 
-        div.fondo3(x="80%" y="42%"  numero="+")          
+        div(x="80%" y="42%"  numero="+")          
           p.mb-0 <span style="color: #942E19">●</span> Se debe realizar una primera selección de los productos identificados.
           p.mb-0 <span style="color: #942E19">●</span> Se debe visitar a los posibles compradores.
           p.mb-0 <span style="color: #942E19">●</span> Se debe determinar el precio del producto y el precio de venta al público.
@@ -32,13 +32,13 @@
           p.mb-0 <span style="color: #942E19">●</span> Se deben identificar los diferentes medios de pago.
           p.mb-0 <span style="color: #942E19">●</span> Todo esto se podrá determinar realizando unas visitas previas a otras organizaciones, como lo son las que están dedicadas a la comercialización de plantas ornamentales, medicinales, artesanías, carbón, y comestibles., entre otros.
           
-        div.fondo3(x="23.5%" y="75%"  numero="+")
+        div(x="23.5%" y="75%"  numero="+")
           .row.justify-content-center.align-items-center
             .col-lg-6
               img(src='@/assets/curso/tema3/img06.png')
             .col-lg-6
               p.mb-0 La identificación preliminar de los productos y su recolección son importante en el proceso, estos la realizan personas con conocimientos previos, ya sea a nivel local, regional o nacional. Por otro lado, es vital realizarla con la comunidad, ya que son ellos quienes conocen sus usos, por lo que no debe ser impuesta por los técnicos. 
-        div.fondo3(x="80%" y="75%"  numero="+")
+        div(x="80%" y="75%"  numero="+")
           .row.justify-content-center.align-items-center
             .col-lg-6
               img(src='@/assets/curso/tema3/img07.png')
