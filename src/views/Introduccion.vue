@@ -15,8 +15,8 @@
         p.mb-0 Por lo anterior, se invita a ver el siguiente video en el cual se describen las temáticas que se tratarán en este componente formativo.
 
     figure(data-aos="fade-left")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      .video        
+        iframe(width="1280" height="720" src="https://www.youtube.com/embed/0HMd6GuUchQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
