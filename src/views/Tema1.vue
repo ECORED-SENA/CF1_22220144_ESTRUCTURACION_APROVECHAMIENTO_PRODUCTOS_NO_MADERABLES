@@ -9,16 +9,17 @@
 
     .fondo1.p-0.pt-4.m-0.position-relative(data-aos="fade-left")
       .row.justify-content-center
-        .col-lg-10
-          img.d-none.d-lg-block(src="@/assets/curso/tema1/img02.png")
-          div.p-3.d-block.d-lg-none(style="background-color: #DEF0FA; border-radius: 15px")
+        .col-12.col-xl-10
+          //img.d-none.d-lg-block(src="@/assets/curso/tema1/img02.png")
+          img(src="@/assets/curso/tema1/img02.png")
+          div.p-3.d-block.d-xl-none(style="background-color: #DEF0FA; border-radius: 15px")
             p.mb-0 Para identificar los productos no maderables del bosque se debe tener claro los términos a los que hace referencia y que componentes lo conforman; los productos no maderables son los que excluyen a la madera del producto beneficio o servicio, por lo que este material debe proceder de un bosque.
       .position-absolute.d-none.d-lg-block(style="top: 50px")
         .row.justify-content-center
-          .col-lg-5
-          .col-lg-6.px-5
+          .col-4.col-xl-5.col-xxl-5
+          .col-8.col-xl-6.col-xxl-6.px-3
             p.mb-0 Para identificar los productos no maderables del bosque se debe tener claro los términos a los que hace referencia y que componentes lo conforman; los productos no maderables son los que excluyen a la madera del producto beneficio o servicio, por lo que este material debe proceder de un bosque.
-          .col-lg-1
+          .col-1.col-xxl-1
 
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido

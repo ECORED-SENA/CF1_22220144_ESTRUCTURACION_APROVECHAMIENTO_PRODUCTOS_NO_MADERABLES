@@ -12,7 +12,7 @@
         .col-lg-3.p-0
           img(src="@/assets/curso/tema4/img02.png")
         .col-lg-7.d-flex(style="background-color:#F1F6EA")
-          div.d-flex.align-items-center
+          div.d-flex.align-items-center.p-2
             p.mb-0 Para dar inicio, es pertinente hablar de la orientación que da el Estado colombiano, ya que desde allí se proporciona legitimidad legislativa de los productos no maderables, de igual forma, a nivel internacional se están realizando estudios que permitan fortalecer las leyes en pro del ambiente y la sustentabilidad del mismo.
       
 
@@ -114,17 +114,17 @@
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.p-5.py-4.fondo3
         p.mb-3 Dicho artículo en la sección 10 que habla del manejo sostenible de la flora silvestre y de los productos forestales no maderables, en la subsección 2 Artículo 2.2.1.1.10.2.1 habla de cómo adquirir los productos forestales no maderables con el objetivo de contar con elementos técnicos que orienten las actividades y así mismo, facilitar a los entes de control el seguimiento y evaluación de los productos no maderables, en este decreto se tiene en cuenta los aspectos:
-        .row.mb-4 
-          .col-lg-4
-            div.fondo4.px-5.py-4
+        .row.justify-content-center.mb-4 
+          .col-lg-4.d-flex.justify-content-center
+            div.fondo4.px-5.py-4.mb-lg-0.mb-4
               img.mb-3(src="@/assets/curso/tema4/img07.svg")
               h4.text-center.mb-0 Biológicos
-          .col-lg-4
-            div.fondo5.px-5.py-4
+          .col-lg-4.d-flex.justify-content-center
+            div.fondo5.px-5.py-4.mb-lg-0.mb-4
               img.mb-3(src="@/assets/curso/tema4/img08.svg")
               h4.text-center.mb-0  Ecológicos productivos
-          .col-lg-4
-            div.fondo4.px-5.py-4
+          .col-lg-4.d-flex.justify-content-center
+            div.fondo4.px-5.py-4.mb-lg-0
               img.mb-3(src="@/assets/curso/tema4/img09.svg")
               h4.text-center.mb-0 Socioculturales
         p.mb-0 Lo anterior permite a la comunidad tener una estabilidad económica y un manejo sostenible de los recursos naturales, por lo que para adquirir los productos no maderables se puede usar las siguientes opciones:

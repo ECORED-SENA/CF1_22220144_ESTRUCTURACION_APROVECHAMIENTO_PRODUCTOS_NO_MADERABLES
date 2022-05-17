@@ -9,16 +9,17 @@
 
     .fondo1.p-0.pt-4.m-0.position-relative
       .row.justify-content-center(data-aos="fade-left")
-        .col-lg-10
-          img.d-none.d-xl-block(src="@/assets/curso/tema2/img02.png")
+        .col-12.col-xl-10
+          //img.d-none.d-xl-block(src="@/assets/curso/tema2/img02.png")
+          img.mb-3(src="@/assets/curso/tema2/img02.png")
           div.p-3.d-block.d-xl-none(style="background-color: #F1F6EA; border-radius: 15px")
             p.mb-0 Las plantas son muy importantes para que exista la vida en la Tierra, ya que además de ser receptoras de energía solar, son las que generan el oxígeno y todo lo que consumimos como sociedad está relacionado directamente con ellas. Por lo anterior, en el siguiente recurso de aprendizaje se explican las dos definiciones clave para entender su producción, por lo que se invita a revisarlo detalladamente.
-      .position-absolute.d-none.d-xl-block(style="top: 60px")
+      .position-absolute.d-none.d-lg-block(style="top: 60px")
         .row.justify-content-center
-          .col-lg-4
-          .col-lg-7.px-5
+          .col-3.col-xl-4.col-xxl-4
+          .col-9.col-xl-7.col-xxl-7.px-3
             p.mb-0 Las plantas son muy importantes para que exista la vida en la Tierra, ya que además de ser receptoras de energía solar, son las que generan el oxígeno y todo lo que consumimos como sociedad está relacionado directamente con ellas. Por lo anterior, en el siguiente recurso de aprendizaje se explican las dos definiciones clave para entender su producción, por lo que se invita a revisarlo detalladamente.
-          .col-lg-1
+          .col-1.col-xxl-1
 
       Separador
       #t_2_1.titulo-segundo.color-acento-contenido
