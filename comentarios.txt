@@ -1,2 +1,3 @@
-H7: No se encuentra la unidad didactica
-H11: No comprendo el hallazgo
+H31: Debe revisar el instruccional
+H32: Debe revisar el instruccional
+H40: La maquetacion al respecto esta completa. La informacion esta en tarjetas donde la info se muestra al pasar el raton sobre ellas. No en tu navegador se ve como en la imagen que envias. Yo he probado en firefox, chrome y edge, tanto en version escritoprio como movil, y no logro reproducir el caso. Prueba por favor borrar cache y volver a intentar

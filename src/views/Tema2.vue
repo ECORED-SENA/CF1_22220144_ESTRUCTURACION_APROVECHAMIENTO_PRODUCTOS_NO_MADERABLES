@@ -12,13 +12,13 @@
         .col-12.col-xl-10
           //img.d-none.d-xl-block(src="@/assets/curso/tema2/img02.png")
           img.mb-3(src="@/assets/curso/tema2/img02.png")
-          div.p-3.d-block.d-xl-none(style="background-color: #F1F6EA; border-radius: 15px")
-            p.mb-0 Las plantas son muy importantes para que exista la vida en la Tierra, ya que además de ser receptoras de energía solar, son las que generan el oxígeno y todo lo que consumimos como sociedad está relacionado directamente con ellas. Por lo anterior, en el siguiente recurso de aprendizaje se explican las dos definiciones clave para entender su producción, por lo que se invita a revisarlo detalladamente.
+          div.p-3.d-block.d-lg-none(style="background-color: #F1F6EA; border-radius: 15px")
+            p.mb-0 El bosque es uno de los ecosistemas más amenazados por actividades humanas como la minería, la expansión de fronteras agropecuarias y la urbana, por lo que se debe resaltar que estos lugares son muy importantes en el área económica y social, ya que generar bastantes bienes y servicios para la comunidad, sin mencionar todo lo que aporta en el ámbito medicinal en la actualidad.
       .position-absolute.d-none.d-lg-block(style="top: 60px")
         .row.justify-content-center
           .col-3.col-xl-4.col-xxl-4
           .col-9.col-xl-7.col-xxl-7.px-3
-            p.mb-0 Las plantas son muy importantes para que exista la vida en la Tierra, ya que además de ser receptoras de energía solar, son las que generan el oxígeno y todo lo que consumimos como sociedad está relacionado directamente con ellas. Por lo anterior, en el siguiente recurso de aprendizaje se explican las dos definiciones clave para entender su producción, por lo que se invita a revisarlo detalladamente.
+            p.mb-0 El bosque es uno de los ecosistemas más amenazados por actividades humanas como la minería, la expansión de fronteras agropecuarias y la urbana, por lo que se debe resaltar que estos lugares son muy importantes en el área económica y social, ya que generar bastantes bienes y servicios para la comunidad, sin mencionar todo lo que aporta en el ámbito medicinal en la actualidad.
           .col-1.col-xxl-1
 
       Separador
@@ -29,8 +29,17 @@
 
       .row.justify-content-center.mb-4(data-aos="fade-left")
         .col-lg-6(style="border: 1px solid #FFC846")
-
+      
+      .titulo-sexto.color-acento-contenido
+          p.mb-0 Caracterizar taxonómicamente productos no maderables
+          p.mb-0 Conceptos: botánica y taxonomía
       SlyderE(indicadores="derecha" data-aos="fade-right")
+        .row
+          .col-xl-4
+            h4 Botánica
+            p.mb-3mb-xl-0 Es la disciplina que estudia, describe y clasifica las plantas y su relación entre sí con otros organismos, siendo esta una rama de la biología. La biología estudia los reinos plantae, es decir, las plantas entre los cuales incluye: fungi, hongos y chromista. Todos estos tienen en común que no tienen cloroplastos ni movilidad. 
+          .col-xl-8
+            img(src="@/assets/curso/tema2/img04.png")
         .row
           .col-xl-4
             h4 Taxonomía
@@ -48,12 +57,7 @@
 
           .col-xl-8
             img(src="@/assets/curso/tema2/img03.png")
-        .row
-          .col-xl-4
-            h4 Botánica
-            p.mb-3mb-xl-0 Es la disciplina que estudia, describe y clasifica las plantas y su relación entre sí con otros organismos, siendo esta una rama de la biología. La biología estudia los reinos plantae, es decir, las plantas entre los cuales incluye: fungi, hongos y chromista. Todos estos tienen en común que no tienen cloroplastos ni movilidad. 
-          .col-xl-8
-            img(src="@/assets/curso/tema2/img04.png")
+        
 
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido
@@ -75,7 +79,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img06.png')})`}"
           )
           .bloque-texto-g__texto.p-4.py-5
-            p.mb-0 … que todo lo que mejore el rendimiento de la extracción de productos no maderables incrementará el valor del recurso, por ejemplo el trabajo que se hace con el árbol de caucho para producir látex o goma.
+            p.mb-0 El modelo anterior muestra cómo se debe ir clasificando y nombrando los seres vivos, ya sean de tipo vegetal o animal. Pero, en definitiva, son las características las que dan las pautas para ponerlos en cada lugar de subcategoría. 
     
     p.text-center.mb-5(data-aos="fade-right") En la siguiente tabla se muestra la taxonomía de algunos productos no maderables. 
     
@@ -87,7 +91,7 @@
           .col-lg-6.px-4.py-3
             h4.mb-2 Palma milpesos
             p.mb-2 Se usa para hacer aceite.
-            a.boton.color-acento-botones.me-0(href="https://www.ecured.cu/%C3%81rbol_del_caucho" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-0(href="https://colombia.inaturalist.org/taxa/365688-Oenocarpus-bataua" target="_blank" type="application/pdf")            
               span Enlace web
               i.fas.fa-link.p-1(style="background-color:#FFFFFF; color: #942E19")
       .col-xl-6.ps-4
@@ -97,7 +101,7 @@
           .col-lg-6.px-4.py-3
             h4.mb-2 Guarumo
             p.mb-2 Se usa para hacer medicamentos para la diabetes.
-            a.boton.color-acento-botones.me-0(href="https://panama.inaturalist.org/taxa/145603-Bertholletia-excelsa" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-0(href="https://colombia.inaturalist.org/taxa/160255-Cecropia-obtusifolia" target="_blank" type="application/pdf")
               span Enlace web
               i.fas.fa-link.p-1(style="background-color:#FFFFFF; color: #942E19")
     
@@ -109,7 +113,7 @@
           .col-lg-6.px-4.py-3
             h4.mb-2 Árbol de caucho
             p.mb-2 Látex, se usa para hacer goma.
-            a.boton.color-acento-botones.me-0(href="https://colombia.inaturalist.org/taxa/365688-Oenocarpus-bataua" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-0(href="https://www.ecured.cu/%C3%81rbol_del_caucho" target="_blank" type="application/pdf")            
               span Enlace web
               i.fas.fa-link.p-1(style="background-color:#FFFFFF; color: #942E19")
       .col-xl-6.ps-4
@@ -119,7 +123,7 @@
           .col-lg-6.px-4.py-3
             h4.mb-2 Nuez del Brasil
             p.mb-2 Se utiliza como alimento.
-            a.boton.color-acento-botones.me-0(href="https://colombia.inaturalist.org/taxa/160255-Cecropia-obtusifolia" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-0(href="https://panama.inaturalist.org/taxa/145603-Bertholletia-excelsa" target="_blank" type="application/pdf")
               span Enlace web
               i.fas.fa-link.p-1(style="background-color:#FFFFFF; color: #942E19")
     
@@ -131,7 +135,7 @@
           .col-lg-6.px-4.py-3
             h4.mb-2 Achiote
             p.mb-2 Se usa contra el dolor, en la selva amazónica, y para tinturar objetos.
-            a.boton.color-acento-botones.me-0(href="https://www.ecured.cu/%C3%81rbol_del_caucho" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.me-0(href="https://web.ins.gob.pe/sites/default/files/Archivos/censi/Achiote_Vademecum.pdf" target="_blank" type="application/pdf")
               span Enlace web
               i.fas.fa-link.p-1(style="background-color:#FFFFFF; color: #942E19")
 
@@ -154,21 +158,21 @@
                 .tarjeta(style="background-color: #F0DDD8")
                   .p-5
                     h4.text-center Dimensiones
-                    p.mb-0 Las piezas deben medir mínimo 6 x 5 x 3 cm y poseer albura como duramen. 
+                    p.mb-0 Las piezas deben medir minimo 6 x 5 x 3 cm y poseer albura como duramen. 
             .col-lg-4
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')            
                 .tarjeta(style="background-color: #F0DDD8")
                   .p-5
-                    h4.text-center Dimensiones
-                    p.mb-0 Las piezas deben medir mínimo 6 x 5 x 3 cm y poseer albura como duramen. 
+                    h4.text-center Estado sanitario
+                    p.mb-0 Deben ser muestras libres de ataque de hongos e insectos.
             .col-lg-4
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/img15.svg' alt='AvatarTop')            
                 .tarjeta(style="background-color: #F0DDD8")
                   .p-5
-                    h4.text-center Dimensiones
-                    p.mb-0 Las piezas deben medir mínimo 6 x 5 x 3 cm y poseer albura como duramen. 
+                    h4.text-center Marcación e información
+                    p.mb-0 Deben remitirse marcadas dobre la superficie directamente con marcador.
 
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10

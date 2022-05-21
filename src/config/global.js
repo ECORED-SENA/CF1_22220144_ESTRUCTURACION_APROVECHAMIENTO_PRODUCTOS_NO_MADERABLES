@@ -180,139 +180,152 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Congreso de Colombia. (1963). Ley 99 1993. Por la cual se crea el Ministerio de Medio Ambiente. ',
+      link: 'https://funcionpublica.gov.co/eva/gestornormativo/norma.php?i=297',
+    },
+    {
+      referencia:
+        'Constitución Política de Colombia. (1991). Constitución Política de Colombia. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.corteconstitucional.gov.co/inicio/Constitucion%20politica%20de%20Colombia%20-%202015.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Espacio Virtual de Asesoría de Función Pública. (2021). Decreto 690 de 2021. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=164893',
+    },
+    {
+      referencia: 'FAO. (1999). Introducción.',
+      link: 'https://www.fao.org/3/y1457s/Y1457S06.htm',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Ideam. (s. f.). Protocolo para Seguimiento y Control a la Movilización de Productos Maderables y Productos no Maderables del Bosque.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://capacitacion.siac.ideam.gov.co/SIAC/PROTOCOLO_2_MOVILIZACION_VF.pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'IIto. (2006). Convenio internacional de maderas tropicales. IIto. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.itto.int/direct/topics/topics_pdf_download/topics_id=3363&no=3&disp=inline',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Instituto Amazónico de Investigaciones Científicas- Sinchi. (2008). Catálogo de frutales. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://www.sinchi.org.co/files/publicaciones/publicaciones/pdf/catalogo%20de%20frutales%20web.pdf',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Lintu, L. (1995). La comercialización de los productos forestales no madereros en los países en desarrollo. ',
+      link: 'https://www.fao.org/3/V7850S/v7850s08.htm',
+    },
+    {
+      referencia: 'Ministerio de Medio Ambiente. (2021). ¿Qué es la COP 26? ',
+      link: 'https://cop26.minambiente.gov.co/que-es-cop-26/',
+    },
+    {
+      referencia:
+        'Naciones Unidas. (1992). Convenio sobre la Biodiversidad, instrumento internacional clave para el desarrollo sostenible. ',
+      link: 'https://www.un.org/es/observances/biodiversity-day/convention',
+    },
+    {
+      referencia:
+        'Organización de las Naciones Unidas para la Agricultura y la Alimentación. (2002). Capítulo 10. Productos forestales no madereros. ',
+      link: 'https://www.fao.org/3/y1997s/y1997s0g.htm',
+    },
+    {
+      referencia:
+        'Organización Mundial del Comercio. (s.f.). Comercio y medio ambiente. ',
+      link: 'https://www.wto.org/spanish/tratop_s/envir_s/envir_s.htm',
+    },
+    {
+      referencia:
+        'Parques Nacionales Naturales de Colombia. (2021). Convenios internacionales ratificados por Colombia. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.parquesnacionales.gov.co/portal/es/normatividad/marco-normativo-del-sistema-de-parques-nacionales-naturales/resoluciones/',
+    },
+    {
+      referencia: 'SINA. (2021). Lineamientos de ordenamiento. ',
+      link:
+        'https://www.minambiente.gov.co/ordenamiento-ambiental-territorial-y-sistema-nacional-ambiental-sina/lineamientos-de-ordenamiento/',
+    },
+    {
+      referencia: 'Unesco. (2015). Objetivos de Desarrollo Sostenible.  ',
+      link: 'Agenda 2030. https://es.unesco.org/sdgs',
+    },
+    {
+      referencia: 'Unesco. (2021). Tu visión de la educación en el 2050. ',
+      link:
+        'https://es.unesco.org/futuresofeducation/get-involved/tu-vision-de-la-educacion-en-2050',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Aprovechamiento sostenible',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'aprovechamiento que puede extraerse del bosque de forma sostenible, determinado generalmente por anticipado utilizando un modelo de rendimiento y prescrito en los planes de ordenación.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Biometría',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'aplicación de métodos estadísticos a la medición de objetos biológicos.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Forraje',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'fuentes más económicas y saludables de alimentación que tiene un ganadero por medio de las plantas cultivadas y así dar de comer a los animales.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Gomas',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'formadas a partir de la cicatrización de la planta y se utiliza como pegamento ',
     },
     {
-      termino: 'Moda',
+      termino: 'Producto',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'cualquier parte de un vegetal o animal que se aprovecha para uso o consumo humano.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Ministerio de Agricultura y Desarrollo Rural. (2017). Agricultura al día. Productos no maderables. ',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=O5UpRXlW8JM',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Ideam. (s. f.). Protocolo para seguimiento y control a la movilización de productos maderables y productos no maderables del bosque. ',
+      tipo: 'Pdf',
+      descarga: '/downloads/anexo1.pdf',
     },
     {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+      texto: 'Naturalista. (s. f.) Palma milpesos. ',
+      tipo: 'Web',
+      link: 'https://colombia.inaturalist.org/taxa/365688-Oenocarpus-bataua',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+      texto: 'Naturalista. (s.f.) Guarumo. ',
+      tipo: 'Web',
+      link: 'https://colombia.inaturalist.org/taxa/160255-Cecropia-obtusifolia',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto: 'Ecured. (s. f.) Árbol de caucho. ',
+      tipo: 'Web',
+      link: 'https://www.ecured.cu/%C3%81rbol_del_caucho',
+    },
+    {
+      texto: 'INaturalisPa. (s. f.). Nuez del Brasil. ',
+      tipo: 'Web',
+      link: 'https://panama.inaturalist.org/taxa/145603-Bertholletia-excelsa',
+    },
+    {
+      texto: 'Instituto Peruano. (s. f.) Achiote. ',
+      tipo: 'Pdf',
+      descarga: '/downloads/anexo2.pdf',
     },
   ],
   creditos: {
@@ -336,49 +349,81 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'John Jairo Arciniegas González',
+        cargo: '',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Edgar Mauricio Cortés García',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Camila Ovalle Ospina',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

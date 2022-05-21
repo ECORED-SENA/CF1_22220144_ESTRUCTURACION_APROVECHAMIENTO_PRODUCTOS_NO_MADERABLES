@@ -45,9 +45,9 @@
             .col-lg-6
               p.mb-0 Se realiza con base en la información que se recolectó anteriormente, por lo que se hace un cálculo de costo de elaboración, producción y comercialización de los productos, para finalmente concretar un estudio de mercado. 
         
-      Separador
-      #t_3_1.titulo-segundo.color-acento-contenido
-        h2 3.1. Identificación de fuentes de consulta (bases de datos especializadas y medios de búsqueda)
+    Separador
+    #t_3_1.titulo-segundo.color-acento-contenido
+      h2 3.1. Identificación de fuentes de consulta (bases de datos especializadas y medios de búsqueda)
 
     p.mb-4(data-aos="fade-right") Para iniciar, es importante resaltar la importancia de los productos no maderables en la actualidad, ya que su consumo ha aumentado por lo que tienen potencial para su comercialización, tanto que hay una enorme cantidad de productos que ofrecen diversas oportunidades para empezar algún tipo de iniciativa o emprendimiento de productos no maderables en futuros mercados.
     
@@ -150,7 +150,7 @@
     .fondo3.mb-5 
       Separador
       #t_3_2.titulo-segundo.color-acento-contenido
-        h2 3.2. América del sur (Brasil, Colombia, Ecuador, Paraguay, Venezuela y Perú).
+        h2 3.2	Contextualización del mercado externo (competidores, oferta y demanda)
       
       p.mb-4(data-aos="fade-right") Para entender en realidad los deseos y necesidades de los clientes potenciales del mercado se debe investigar el mercado y las alternativas de comercialización de los productos no maderables, para que estos lleguen al consumidor final, cabe resaltar que cada producto tiene diferente oferta y demanda, lo que dice que hay público objetivo para cada uno.
       p.mb-5(data-aos="fade-left") A continuación, se presentan algunos productos no maderables que se producen en América del Sur:

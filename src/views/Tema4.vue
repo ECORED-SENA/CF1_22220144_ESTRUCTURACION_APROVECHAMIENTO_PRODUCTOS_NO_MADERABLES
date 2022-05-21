@@ -186,7 +186,7 @@
           .tarjeta.color-principal.p-0        
             img(src='@/assets/curso/tema4/img18.png')
             div.slyder1 
-              p.text-center.py-2.mb-0 El uso sostenible de la diversidad biológica.
+              p.text-center.py-2.mb-0 La conservación de la diversidad biológica.
           .tarjeta.color-principal.p-0        
             img(src='@/assets/curso/tema4/img19.png')
             div.slyder1 
