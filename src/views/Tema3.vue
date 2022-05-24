@@ -156,7 +156,7 @@
       p.mb-5(data-aos="fade-left") A continuación, se presentan algunos productos no maderables que se producen en América del Sur:
 
       .titulo-sexto.color-acento-contenido
-        p.mb-0 Descripción y clasificación de las partes de la planta
+        p.mb-0 América del Sur (Brasil, Colombia, Ecuador, Bolivia, Paraguay, Venezuela y Perú)
       
       img.mb-5(src="@/assets/curso/tema3/img11.svg" data-aos="fade-right")
 

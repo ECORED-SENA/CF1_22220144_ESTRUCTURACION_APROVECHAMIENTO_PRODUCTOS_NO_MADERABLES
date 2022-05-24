@@ -376,7 +376,7 @@ export default {
       },
       {
         nombre: 'John Jairo Arciniegas González',
-        cargo: '',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

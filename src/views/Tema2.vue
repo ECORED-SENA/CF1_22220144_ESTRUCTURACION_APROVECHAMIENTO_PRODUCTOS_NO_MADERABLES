@@ -174,15 +174,18 @@
                     h4.text-center Marcación e información
                     p.mb-0 Deben remitirse marcadas dobre la superficie directamente con marcador.
 
-    .row.justify-content-center(data-aos="fade-left")
+    .row.justify-content-center.mb-0(data-aos="fade-left")
       .col-lg-10
         p.mb-4 Información muy importante…                        
-        .bloque-texto-g.color-secundario.p-4.px-5
+        .bloque-texto-g.color-secundario.p-4.px-5.mb-5 
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img16.png')})`}"
           )
           .bloque-texto-g__texto.p-4.py-4
             p.mb-0 La marcación de las muestras debe llevar la información de la procedencia y el nombre común de la misma, después de esto se manejarán con cadena de custodia para no alterar, contaminar o destruir las condiciones de la muestra y que llegue en perfecto estado al laboratorio que vaya a examinarlas.
+
+        p.mb-4 Además, los productos no maderables entregados a entidades públicas, una vez lleguen al sitio dispuesto en el acta de entrega no podrán ser movilizados, comercializados o donados a una segunda persona o entidad.
+        p.mb-0 Se resalta en esta parte del documento que la introducción de especies forestales y no forestales en las áreas agrícolas, su cultivo y mejora genética ofrecen considerables posibilidades para mejorar la nutrición de las poblaciones rurales y también, desde el punto de vista económico, para obtener ingresos en efectivo con la venta de frutos o productos elaborados.
 
 
     Separador

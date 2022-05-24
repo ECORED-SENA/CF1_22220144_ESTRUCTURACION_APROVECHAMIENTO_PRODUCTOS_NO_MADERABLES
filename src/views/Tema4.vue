@@ -23,7 +23,7 @@
       p.mb-5(data-aos="fade-right") Es importante contextualizar las pautas que el Estado colombiano ha venido definiendo, como es el caso del Plan de Ordenamiento Territorial vigente en Colombia y que va paralelo a los Objetivos de Desarrollo Sostenible que están descrito en la Agenda 2030 de la Unesco, para de esta forma entender a un nivel macro cómo se gestiona y conserva el medio ambiente, las responsabilidades de los diferentes actores, y los factores que intervienen directamente. Por lo anterior, se diseñaron unos lineamientos que se deben tener en cuenta a nivel nacional. 
       
       .cajon.color-acento-contenido.p-4.px-5(data-aos="fade-left")
-        p.mb-0 El primer lineamiento que inició este plan fue la Ley 99 de 1993, donde se crea el Ministerio del Medio Ambiente, allí se delega al sector público la gestión y conservación de los recursos naturales renovables, luego está entidad creó tres documentos importantes que definen grosso modo el Plan de Ordenamiento Territorial que se describen en el siguiente recurso de aprendizaje:
+        p.mb-0 El primer lineamiento que inició este plan fue la Ley 99 de 1993, donde se crea el Ministerio del Medio Ambiente, allí se delega al sector público la gestión y conservación de los recursos naturales renovables, luego está entidad creó tres documentos importantes que definen <i>grosso modo</i> el Plan de Ordenamiento Territorial que se describen en el siguiente recurso de aprendizaje:
     
     .tarjetas1.mb-4(data-aos="fade-right")
       .row.justify-content-center.align-items-center        
@@ -55,6 +55,7 @@
                 h4 Función ecológica de la propiedad 
                 p.mb-0 Este documento orienta las Corporaciones Autónomas Regionales y de Desarrollo Sostenible con las comunidades indígenas en Procesos de Ordenamiento Ambiental Territorial.
     
+    p.mb-4(data-aos="fade-left") Los anteriores documentos guían y explican el ordenamiento territorial, así mismo se puede ver el paso a paso de los lineamientos propuestos por el Gobierno nacional.
     p.mb-4(data-aos="fade-right") Por otro lado, se debe tener en cuenta el Plan de Ordenamiento Ambiental que es un instrumento muy importante para integrar diferentes variables ambientales en busca del desarrollo sostenible local para mantener el equilibrio entre la demanda y la oferta lo que implica necesariamente un adecuado ordenamiento de ocupación y uso de los territorios. 
     
     .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -89,7 +90,7 @@
                   .anexo__texto
                     p Enlace web.
             tr
-              td(colspan=7) Como consecuencia del Plan de Ordenamiento Territorial, surgen los Planes de Ordenamiento Ambiental, por lo que es indispensable que los dos miren en el mismo sentido, por lo anterior, se invita a revisar el documento Retos ambientales para los Planes de Ordenamiento Territorial modernos o de segunda generación: el caso de los municipios intermedios de Colombia que se encuentra en el siguiente enlace.
+              td(colspan=7) Como consecuencia del Plan de Ordenamiento Territorial, surgen los Planes de Ordenamiento Ambiental, por lo que es indispensable que los dos miren en el mismo sentido, por lo anterior, se invita a revisar el documento <i>Retos ambientales para los Planes de Ordenamiento Territorial modernos o de segunda generación: el caso de los municipios intermedios de Colombia</i> que se encuentra en el siguiente enlace.
               td(colspan=3 align="center")
                  a.anexo.border.w-100.border(href="http://www.scielo.org.co/pdf/agor/v18n2/1657-8031-agor-18-02-426.pdf" target="_blank")
                   .anexo__icono
