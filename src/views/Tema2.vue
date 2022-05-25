@@ -73,7 +73,7 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
-        p.mb-3 Por otro lado, es necesario recordar…
+        p.mb-3 Para recordar...
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/img06.png')})`}"
