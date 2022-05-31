@@ -141,7 +141,7 @@
             tr(style="background-color: #F6FAF0 !important")
               td(colspan=7) La Universidad Distrital tiene en su repositorio contenidos sobre productos no maderables del bosque, por lo que le invito a revisar el enlace que se anexa.
               td(colspan=3 align="center")
-                 a.anexo.border.w-100.border(href="https://sena-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,productos%20no%20maderables&tab=sena_completo&search_scope=sena_completo&vid=SENA&mode=Basic" target="_blank")
+                 a.anexo.border.w-100.border(href="https://repository.udistrital.edu.co/handle/11349/4869" target="_blank")
                   .anexo__icono
                     img(src="@/assets/curso/tema3/img09.svg")
                   .anexo__texto

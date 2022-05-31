@@ -253,8 +253,9 @@ export default {
         'https://www.minambiente.gov.co/ordenamiento-ambiental-territorial-y-sistema-nacional-ambiental-sina/lineamientos-de-ordenamiento/',
     },
     {
-      referencia: 'Unesco. (2015). Objetivos de Desarrollo Sostenible.  ',
-      link: 'Agenda 2030. https://es.unesco.org/sdgs',
+      referencia:
+        'Unesco. (2015). Objetivos de Desarrollo Sostenible.  Agenda 2030.',
+      link: 'https://es.unesco.org/sdgs',
     },
     {
       referencia: 'Unesco. (2021). Tu visión de la educación en el 2050. ',

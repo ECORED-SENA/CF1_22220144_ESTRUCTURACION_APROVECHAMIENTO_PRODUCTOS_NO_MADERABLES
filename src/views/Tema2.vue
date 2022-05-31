@@ -48,7 +48,7 @@
             p.mb-0 <span style="color: #FFC846">●</span> Nomenclatura. 
             p.mb-4 <span style="color: #FFC846">●</span> Clasificación de los mismos.
             p.mb-4 Acá se parte de las propiedades generales a las más específicas.
-            p.mb-4 Esta tiene en cuenta criterios como lo son las característica de cada planta. entre estas se tiene:
+            p.mb-4 Esta tiene en cuenta criterios como lo son las características de cada planta. entre estas se tiene:
             p.mb-0 <span style="color: #FFC846">●</span> Anatómicas.
             p.mb-0 <span style="color: #FFC846">●</span> Fisiológicas.
             p.mb-0 <span style="color: #FFC846">●</span> Morfológicas.
@@ -158,7 +158,7 @@
                 .tarjeta(style="background-color: #F0DDD8")
                   .p-5
                     h4.text-center Dimensiones
-                    p.mb-0 Las piezas deben medir minimo 6 x 5 x 3 cm y poseer albura como duramen. 
+                    p.mb-0 Las piezas deben medir mínimo 6 x 5 x 3 cm y poseer albura como duramen. 
             .col-lg-4
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/img14.svg' alt='AvatarTop')            
@@ -172,7 +172,7 @@
                 .tarjeta(style="background-color: #F0DDD8")
                   .p-5
                     h4.text-center Marcación e información
-                    p.mb-0 Deben remitirse marcadas dobre la superficie directamente con marcador.
+                    p.mb-0 Deben remitirse marcadas sobre la superficie directamente con marcador.
 
     .row.justify-content-center.mb-0(data-aos="fade-left")
       .col-lg-10
@@ -213,7 +213,7 @@
           .tarjeta.color-acento-botones.p-3(x="47%" y="75%" numero="+")
             p.mb-0 El tallo es la parte aérea la cual sostiene sus otros órganos vegetales, este crece en sentido opuesto a la gravedad, se encuentran diferentes tipos de tallos pero esto depende del medio en el que se desarrolle siendo así subterráneos o aéreos y su función consiste en sostener toda la planta, transportar los nutrientes por el interior de la planta.
           .tarjeta.color-acento-botones.p-3(x="87%" y="55%" numero="+")
-            p.mb-0 Las hojas tiene diferentes forman y nacen del tallo son las encargadas de realizar la fotosíntesis, por lo general se caen cuando hace mucho frío para prevenir la pérdida de agua del árbol.
+            p.mb-0 Las hojas tienen diferentes forman y nacen del tallo son las encargadas de realizar la fotosíntesis, por lo general se caen cuando hace mucho frío para prevenir la pérdida de agua del árbol.
 
           
 
